@@ -62,7 +62,7 @@ input[type="file"] {
   position: relative;
   padding: 6px;
   cursor: pointer;
-  background: linear-gradient(270deg, #25B386, #9CE451);
+  background: linear-gradient(270deg, #4F80E2, #15CDCA);
   margin-bottom: 25px;
 }
 
@@ -139,9 +139,14 @@ input::placeholder {
   overflow-wrap: break-word;
 }
 
+.btn-bar {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   position: relative;
-  color: #a2d471;
+  color: white;
   letter-spacing: 1px;
   margin: 20px;
   font-size: 18px;
@@ -152,12 +157,12 @@ input::placeholder {
   cursor: pointer;
   border-radius: 25px;
   border: none;
-  background: #a585e4;
+  background: rgb(241, 107, 201);
 }
 
 .btn:hover {
   left: 0;
-  color: #fff;
+  color: rgb(115, 183, 247);
   transform: scale(1.1);
   box-shadow: 0px 0px 20px 0px #63d3a6;
 }
@@ -218,6 +223,11 @@ input::placeholder {
   border-bottom: 3px solid var(--clr-grey-5);
   cursor: pointer;
 }
+
+.submit-btn:hover {
+  transform: scale(1.2);
+}
+
 .form-input {
   color: var(--clr-grey-3);
 }
